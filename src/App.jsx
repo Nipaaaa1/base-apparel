@@ -18,7 +18,7 @@ function App() {
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <form action="" className="relative w-full md:w-4/5">
+          <form action="/" className="relative w-full md:w-4/5">
             <input
               className="invalid:bg-errorIcon invalid:bg-invalidMobile md:invalid:bg-invalid w-full rounded-full border-2 border-desaturatedRed/40 bg-transparent px-5 py-3 placeholder:font-semibold placeholder:text-desaturatedRed placeholder:opacity-50 invalid:border-red-600 invalid:bg-no-repeat md:px-6 md:py-4"
               type="email"
