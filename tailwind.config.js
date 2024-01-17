@@ -22,6 +22,9 @@ export default {
       letterSpacing: {
         heading: "1.5rem",
       },
+      fontFamily: {
+        josefinSans: ["Josefin Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
