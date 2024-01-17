@@ -13,7 +13,7 @@ export default {
           "linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%))",
         secondGradient:
           "linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))",
-        heroDesktop: "url('/images/hero-desktop.jpg')",
+        errorIcon: "url('/images/icon-error.svg')",
         patternDesktop: "url('/images/bg-pattern-desktop.svg')",
       },
       lineHeight: {
@@ -24,6 +24,10 @@ export default {
       },
       fontFamily: {
         josefinSans: ["Josefin Sans", "sans-serif"],
+      },
+      backgroundPosition: {
+        invalid: "center right 8rem",
+        invalidMobile: "center right 5rem",
       },
     },
   },
